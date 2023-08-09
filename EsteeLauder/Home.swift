@@ -22,9 +22,10 @@ struct HomeView: View {
                         VStack(alignment: .leading, spacing: 8) {
                             Text("LEARN")
                                 .font(.title)
+                                .foregroundColor(/*@START_MENU_TOKEN@*/Color(hue: 0.936, saturation: 0.811, brightness: 0.663)/*@END_MENU_TOKEN@*/)
                                 .multilineTextAlignment(.center)
                             
-                            Text("Browse our line and discover how the ingredients in Nutritious can help you glow!")
+                            Text("Discover how the ingredients in Nutritious \n can help you get your glow on ")
                                 .font(.subheadline)
                                 .foregroundColor(.gray)
                                 .multilineTextAlignment(.leading)
@@ -35,14 +36,16 @@ struct HomeView: View {
                 NavigationLink(destination: SkincareQuiz()) {
                     HStack {
                         VStack {
-                            Text("FIND YOUR MATCH")
+                            Text("FIND YOUR \n MATCH")
                                 .font(.title)
-                                .multilineTextAlignment(.trailing)
+                                .foregroundColor(Color(hue: 0.452, saturation: 0.488, brightness: 0.376))
+                                .multilineTextAlignment(.center)
+                                .padding(.horizontal)
                             
-                            Text("Learn more about the products in our line!")
+                            Text("    Dry skin? Something for spa night? \n Take our quiz and find \n your perfect Nutritious match! ")
                                 .font(.subheadline)
                                 .foregroundColor(.gray)
-                                .multilineTextAlignment(.trailing)
+                                .multilineTextAlignment(.center)
                         }
                         
                         Image("Image 2")
@@ -65,11 +68,12 @@ struct HomeView: View {
                         
                         // Square of text on the right of the explore image..
                         VStack(alignment: .leading, spacing: 16) {
-                            Text("EXPLORE!!!!!!!!!")
+                            Text("EXPLORE")
                                 .font(.title)
                                 .multilineTextAlignment(.leading)
-                            
-                            Text("Browse our line of products!")
+                                .foregroundColor(/*@START_MENU_TOKEN@*/Color(hue: 0.936, saturation: 0.811, brightness: 0.663)/*@END_MENU_TOKEN@*/)
+                             
+                            Text("There's something for everyone! Browse our line of products here.  ")
                                 .font(.subheadline)
                                 .foregroundColor(.gray)
                                 .multilineTextAlignment(.leading)
