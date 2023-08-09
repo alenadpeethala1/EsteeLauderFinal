@@ -65,7 +65,7 @@ struct HomeView: View {
                         
                         // Square of text on the right of the explore image..
                         VStack(alignment: .leading, spacing: 16) {
-                            Text("EXPLORE")
+                            Text("EXPLORE!!!!!!!!!")
                                 .font(.title)
                                 .multilineTextAlignment(.leading)
                             
