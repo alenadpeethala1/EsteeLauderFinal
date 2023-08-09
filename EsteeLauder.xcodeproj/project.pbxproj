@@ -11,6 +11,10 @@
 		BE7018202A8357F100ACEF6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70181F2A8357F100ACEF6E /* ContentView.swift */; };
 		BE7018222A8357F900ACEF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7018212A8357F900ACEF6E /* Assets.xcassets */; };
 		BE7018252A8357F900ACEF6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7018242A8357F900ACEF6E /* Preview Assets.xcassets */; };
+		BE70182E2A8363E500ACEF6E /* SkincareQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70182D2A8363E500ACEF6E /* SkincareQuiz.swift */; };
+		BE7018302A83642000ACEF6E /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70182F2A83642000ACEF6E /* Explore.swift */; };
+		BE7018322A83642C00ACEF6E /* Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7018312A83642C00ACEF6E /* Learn.swift */; };
+		BE7018342A83645D00ACEF6E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7018332A83645D00ACEF6E /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BE70181F2A8357F100ACEF6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE7018212A8357F900ACEF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE7018242A8357F900ACEF6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE70182D2A8363E500ACEF6E /* SkincareQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkincareQuiz.swift; sourceTree = "<group>"; };
+		BE70182F2A83642000ACEF6E /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		BE7018312A83642C00ACEF6E /* Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn.swift; sourceTree = "<group>"; };
+		BE7018332A83645D00ACEF6E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				BE70181D2A8357F100ACEF6E /* EsteeLauderApp.swift */,
 				BE70181F2A8357F100ACEF6E /* ContentView.swift */,
+				BE7018332A83645D00ACEF6E /* Home.swift */,
+				BE70182D2A8363E500ACEF6E /* SkincareQuiz.swift */,
+				BE70182F2A83642000ACEF6E /* Explore.swift */,
+				BE7018312A83642C00ACEF6E /* Learn.swift */,
 				BE7018212A8357F900ACEF6E /* Assets.xcassets */,
 				BE7018232A8357F900ACEF6E /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE7018202A8357F100ACEF6E /* ContentView.swift in Sources */,
+				BE7018322A83642C00ACEF6E /* Learn.swift in Sources */,
 				BE70181E2A8357F100ACEF6E /* EsteeLauderApp.swift in Sources */,
+				BE70182E2A8363E500ACEF6E /* SkincareQuiz.swift in Sources */,
+				BE7018342A83645D00ACEF6E /* Home.swift in Sources */,
+				BE7018302A83642000ACEF6E /* Explore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
